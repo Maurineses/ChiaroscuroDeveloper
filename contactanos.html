@@ -1,128 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctanos</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
 
+  </head>
+<body>
   <header class="header">
     <div class="container nav-container">
-        <a href="#" class="logo">LOGO</a>
+        <a href="./index.html" class="logo">LOGO</a>
         <span class="menu-icon">Menú</span>
         <nav class="navegation">
            <ul>
                <li><a href="#">Acerca de mi</a></li>
                <li><a href="#">Habilidades y Experiencia</a></li>
-               <li><a href="#">Contacto</a></li>
-               <li><a href="#">IN</a></li>
+               <li><a href="./contactanos.html">Contacto</a></li>
+               <li><a href="./in.html">IN</a></li>
            </ul>
         </nav>
     </div>                
        </header>
-
-    <div class=titulo><h1>Contáctanos</h1></div>
-    <div class="Formulario">
-    <title> Rellena el formulario para contactar conmigo</title>
-       <form action="url backend" method="POST"> 
-         
-         <label for="NOMBRE"> Nombre </label>     
-         <input type="text"> </input>
-     
-     <label for="NOMBRE">Apellido</label>
-     <input type="text"> </input> 
-     
-       <label for="interes del cliente">¿En qué servicio estás interesado?</label>
-     <input type="text"> </input>
-
-     <input type="radio"> </input>
-     <label for="servicio"> Backend </label>
-   <input type="radio"> </input>
-     <label for="servicio"> Frontend </label>
-     
-   <input type="radio"> </input>
-     <label for="Otro"> Otro </label>
-   
-     <label for="numero"> Número </label>
-     <input type="number"> </input>
-   
-     <label for="E-mail"> E-mail </label>
-     <input type="email"> </input>
-  <hr>
-     
-   <textarea name="Información adicional" rows="6" cols="50" ></textarea>
-   <input type="submit" value="Enviar"></input>
-   </div>
-
-   <style>
-     
-     .{
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-     }
-     .Formulario {
-       width: 400px;
-       background: black;
-       padding: 30px;
-       margin: auto;
-       margin-top: 100px;
-       border-radius: 4px;
-       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       color: white;
-
-     }
-     
-     
-    
-     
-
-
-
-
-
-
-
-
-
-    
-   /*  .titulo {
-        position:relative;
-        bottom:45em;
-        left:35em;
-        background-color: white;
-        color: black;
-
-    }
-    .fondo{
-        
-   background-image : url('./cute-bear.png');
-   background-size : 200px 200px;
-   background-repeat :repeat;
-   height : 100vh;
-   position: static;
-    }
-
-    .FORMULARIO {
-position: absolute;
-width:850px; 
-background:black; color:white; 
-font-size:15px;
-position: center;
-bottom: 45em;
-left:20em;
-
-
-} */
-   </style>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>  
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Nombre</label>
+          <input type="nombre" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email de Contacto</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Servicio en el que estés interesado</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Frontend</option>
+            <option>Backend</option>
+            <option>Base de datos</option>  
+          </select>
+        </div> 
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Déjame una descripción de lo que buscas</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    <br>
+    <br>
 
 <footer class="footer">
   <div class="container">
-      <p>Derechos reservados Mau Garcia </p>
+      <p>Derechos reservados Maurine Garcia </p>
   </div>
 
  </footer>

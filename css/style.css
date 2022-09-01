@@ -1,0 +1,95 @@
+header {
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   color: #333; 
+   font-size: 1.2rem;
+   line-height: 1.6em;
+   background: #333;
+   color: white; 
+   padding: 2rem 0;
+   position:fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+} 
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    align-items: center;
+} 
+
+.header a {
+   color: white;
+   text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon {
+    display: none;
+}
+
+ .navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ .navegation ul li {
+    display:inline-block;
+}
+
+  .navegation ul li a {
+      display: block;
+      padding:0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 1.5px;
+}
+
+ .navegation ul li a:hover{
+    background: #4a4a4a;
+}
+
+p{
+    margin: bottom 1.6em; 
+}
+
+.btn {
+    text-align: center;
+}
+
+
+.footer {
+    background: #f2f2f2;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.Formulario {
+    width: 400px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white; 
+
+  }
+  
+ .form-group { 
+    background-color:beige;
+ }    
+
+ .card {
+    width: 40rem;
+    height: 20rem;
+
+ }
